@@ -248,20 +248,60 @@ Built with **Streamlit** and deployed on **Namal HPC Cloud** — accessible glob
 <details>
 <summary><b>Click to view Web Application & Results</b></summary>
 
+<br>
+
 ### Web Application Interface
 The Streamlit-based web app provides dual upload options — scanner images (600 DPI recommended) and mobile images (with red grid calibration). Both scanner and mobile models are loaded and ready for real-time classification.
 
+![Web App Interface](./demo/screenshots/webapp_interface.png)
+
+---
+
 ### Scanner Classification Results
-Uploaded scanner image with detected rice grains highlighted using bounding boxes. Each grain is labeled with its predicted variety. Key measurements (avg length, width, area) and classification breakdown are displayed alongside the image. Users can export a detailed CSV report.
+Uploaded scanner image with detected rice grains highlighted using bounding boxes. Each grain is labeled with its predicted variety. Key measurements (avg length, width, area) and classification breakdown are displayed alongside the image.
+
+![Scanner Results](./demo/screenshots/scanner_results.png)
+
+---
 
 ### Mobile Classification Results
-Mobile image captured on red grid paper. The system automatically detects the grid for spatial calibration, removes grid lines via inpainting, segments individual grains using watershed algorithm, and classifies each grain with color-coded labels.
+Mobile image captured on red grid paper. The system automatically detects the grid for spatial calibration, removes grid lines via inpainting, segments individual grains, and classifies each grain with color-coded labels.
+
+![Mobile Results](./demo/screenshots/mobile_results.png)
+
+---
+
+### Hardware Setup
+**Left:** Canon CanoScan LiDE 300 flatbed scanner with rice grains on black background for industrial-grade capture. **Right:** Custom red grid paper (0.25″ squares) used for mobile camera spatial calibration in field conditions.
+
+![Hardware Setup](./demo/screenshots/hardware_setup.png)
+
+---
+
+### Block Diagram
+End-to-end system flow — from rice sample placement on scanner/grid paper, through image upload to the cloud web app, to classification results.
+
+![Block Diagram](./demo/screenshots/block_diagram.png)
+
+---
 
 ### Training & Validation Accuracy
-Scanner model training shows training accuracy reaching ~98% and validation accuracy stabilizing at ~89% over 10 epochs. Mobile model shows similar convergence with validation at ~80%.
+
+| Scanner Model | Mobile Model |
+|:---:|:---:|
+| ![Scanner Accuracy](./demo/screenshots/training_accuracy_scanner.png) | ![Mobile Accuracy](./demo/screenshots/training_accuracy_mobile.png) |
+
+Scanner model reaches ~98% training / ~89% validation accuracy. Mobile model converges at ~85% training / ~80% validation accuracy over 10 epochs.
+
+---
 
 ### Confusion Matrices
-Scanner confusion matrix shows strong diagonal values — Super Brown (1177/1181) and Supri Sella (1101/1181) are classified almost perfectly. Minor confusion occurs between PK 386, Super 109, and Super White due to similar white-colored morphology.
+
+| Scanner Model (88.86%) | Mobile Model (80.54%) |
+|:---:|:---:|
+| ![Scanner CM](./demo/screenshots/confusion_matrix_scanner.png) | ![Mobile CM](./demo/screenshots/confusion_matrix_mobile.png) |
+
+Strong diagonal values across both models. Super Brown (1177/1181) and Supri Sella (1101/1181) classified near-perfectly. Minor confusion between PK 386, Super 109, and Super White due to overlapping morphological features.
 
 </details>
 
