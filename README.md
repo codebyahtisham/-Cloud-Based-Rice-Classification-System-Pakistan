@@ -322,7 +322,7 @@ Strong diagonal values across both models. Super Brown (1177/1181) and Supri Sel
 | Name | Roll Number | Role |
 |------|-------------|------|
 | **Ahtisham Saleem** | NIM-BSEE-2021-19 | Lead Developer — ML Pipeline, Feature Engineering, Web App, Cloud Deployment |
-| **Muhammad Yousaf** | NIM-BSEE-2021-30 | Dataset Collection, Image Processing, Testing |
+| **Muhammad Yousaf** | NIM-BSEE-2021-30 | Dataset Collection, Image Processing, Testing,Cloud Deployment |
 
 ---
 
