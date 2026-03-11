@@ -231,12 +231,26 @@ Built with **Streamlit** and deployed on **Namal HPC Cloud** — accessible glob
 
 ---
 
+## 🎬 Demo Video
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=f6LQ6LSiT8c">
+    <img src="https://img.youtube.com/vi/f6LQ6LSiT8c/maxresdefault.jpg" alt="Demo Video" width="700">
+  </a>
+  <br>
+  <b>▶️ Click the image above to watch the full demo on YouTube</b>
+</p>
+
+
+
+---
+
 ## 📄 Documentation
 
 | Document | Description | Link |
 |----------|-------------|------|
 | 📘 Thesis Report | Complete 60-page FYP report | [View Report](./NIM-BSEE-2021-19_Final_Report.pdf) |
-| 🎬 Demo Video | Live walkthrough of the web app | [Watch Demo](./demo/demo_video.mp4) |
+| 🎬 Demo Video | Live walkthrough of the web app | [Watch on YouTube](https://www.youtube.com/watch?v=f6LQ6LSiT8c) |
 | 📊 Poster | Project poster for exhibition | [View Poster](./docs/poster.pdf) |
 | 📖 User Manual | Step-by-step usage guide | [Read Manual](./docs/user_manual.pdf) |
 | 🎤 Presentation | Final defense slides | [View Slides](./docs/presentation.pdf) |
