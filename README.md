@@ -13,7 +13,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 Rice is Pakistan's second-largest export commodity, yet variety identification still relies on **slow, error-prone manual inspection**. This project delivers a **production-ready, cloud-based web application** that automates rice variety classification using computer vision and machine learning.
 
@@ -23,7 +23,7 @@ This is a **real-world industrial project** developed over one year in partnersh
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Pakistan's rice industry faces critical challenges in variety identification:
 
@@ -36,7 +36,7 @@ Pakistan's rice industry faces critical challenges in variety identification:
 
 ---
 
-## 🏗️ System Architecture
+# System Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
