@@ -209,7 +209,6 @@ Built with **Streamlit** and deployed on **Namal HPC Cloud** — accessible glob
 ├── docs/
 │   ├── poster.pdf                     # Project poster
 │   ├── user_manual.pdf                # Application user manual
-│   └── presentation.pdf               # Final defense slides
 ├── demo/
 │   ├── demo_video.mp4                 # Live demo of the web application
 │   └── screenshots/
