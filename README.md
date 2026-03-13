@@ -219,11 +219,6 @@ Built with **Streamlit** and deployed on **Namal HPC Cloud** — accessible glob
 │       ├── confusion_matrix_mobile.png
 │       ├── training_accuracy_scanner.png
 │       └── training_accuracy_mobile.png
-├── dataset_samples/
-│   ├── scanner/                       # Sample scanner images (per variety)
-│   └── mobile/                        # Sample mobile images with grid
-└── grid_paper/
-    └── calibration_grid_template.pdf  # Printable red grid for mobile capture
 ```
 
 > ⚠️ **Note:** Source code is proprietary to the industry collaboration with Alkaram Rice Engineering and is not publicly shared. This repository showcases the project's methodology, results, and deliverables.
