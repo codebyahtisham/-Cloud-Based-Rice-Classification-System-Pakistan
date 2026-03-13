@@ -252,7 +252,6 @@ Built with **Streamlit** and deployed on **Namal HPC Cloud** — accessible glob
 | 🎬 Demo Video | Live walkthrough of the web app | [Watch on YouTube](https://www.youtube.com/watch?v=f6LQ6LSiT8c) |
 | 📊 Poster | Project poster for exhibition | [View Poster](./docs/poster.pdf) |
 | 📖 User Manual | Step-by-step usage guide | [Read Manual](./docs/user_manual.pdf) |
-| 🎤 Presentation | Final defense slides | [View Slides](./docs/presentation.pdf) |
 
 ---
 
